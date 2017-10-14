@@ -9,6 +9,9 @@
 /* Begin PBXBuildFile section */
 		11E69DA71B27B1A90025D54E /* AkiraTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11E69DA61B27B1A90025D54E /* AkiraTextField.swift */; };
 		4C42C7711AB20C97009BE2A0 /* TextFieldEffects.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 4CB3B6CE1AA8DEA7000AFA56 /* TextFieldEffects.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		4C8036EB1B90A88E00218FAE /* ExampleTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C8036EA1B90A88E00218FAE /* ExampleTableViewController.swift */; };
+		4C86F6A31E8C0085001FB2B3 /* TextFieldEffects.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C86F6A21E8C0085001FB2B3 /* TextFieldEffects.swift */; };
+		4C86F6A41E8C0109001FB2B3 /* TextFieldEffects.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C86F6A21E8C0085001FB2B3 /* TextFieldEffects.swift */; };
 		4CB3B6D31AA8DEA7000AFA56 /* TextFieldEffects.h in Headers */ = {isa = PBXBuildFile; fileRef = 4CB3B6D21AA8DEA7000AFA56 /* TextFieldEffects.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		4CB3B6EF1AA8DEC3000AFA56 /* HoshiTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CB3B6E71AA8DEC3000AFA56 /* HoshiTextField.swift */; };
 		4CB3B6F01AA8DEC3000AFA56 /* IsaoTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CB3B6E81AA8DEC3000AFA56 /* IsaoTextField.swift */; };
@@ -16,13 +19,13 @@
 		4CB3B6F21AA8DEC3000AFA56 /* KaedeTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CB3B6EA1AA8DEC3000AFA56 /* KaedeTextField.swift */; };
 		4CB3B6F31AA8DEC3000AFA56 /* MadokaTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CB3B6EB1AA8DEC3000AFA56 /* MadokaTextField.swift */; };
 		4CB3B6F41AA8DEC3000AFA56 /* MinoruTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CB3B6EC1AA8DEC3000AFA56 /* MinoruTextField.swift */; };
-		4CB3B6F51AA8DEC3000AFA56 /* TextFieldsEffects.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CB3B6ED1AA8DEC3000AFA56 /* TextFieldsEffects.swift */; };
 		4CB3B6F61AA8DEC3000AFA56 /* YokoTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CB3B6EE1AA8DEC3000AFA56 /* YokoTextField.swift */; };
 		4CB3B6F71AA8DED3000AFA56 /* TextFieldEffects.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4CB3B6CE1AA8DEA7000AFA56 /* TextFieldEffects.framework */; };
 		4CBF76721A71AF7700073B6A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CBF76711A71AF7700073B6A /* AppDelegate.swift */; };
 		4CBF76771A71AF7700073B6A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4CBF76751A71AF7700073B6A /* Main.storyboard */; };
 		4CBF76791A71AF7700073B6A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4CBF76781A71AF7700073B6A /* Images.xcassets */; };
 		4CBF767C1A71AF7700073B6A /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4CBF767A1A71AF7700073B6A /* LaunchScreen.xib */; };
+		DF983ABB1BBD1F4100BCC4C7 /* YoshikoTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF983ABA1BBD1F4100BCC4C7 /* YoshikoTextField.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +54,8 @@
 
 /* Begin PBXFileReference section */
 		11E69DA61B27B1A90025D54E /* AkiraTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AkiraTextField.swift; sourceTree = "<group>"; };
+		4C8036EA1B90A88E00218FAE /* ExampleTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExampleTableViewController.swift; sourceTree = "<group>"; };
+		4C86F6A21E8C0085001FB2B3 /* TextFieldEffects.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TextFieldEffects.swift; sourceTree = "<group>"; };
 		4CB3B6CE1AA8DEA7000AFA56 /* TextFieldEffects.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = TextFieldEffects.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4CB3B6D11AA8DEA7000AFA56 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4CB3B6D21AA8DEA7000AFA56 /* TextFieldEffects.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TextFieldEffects.h; sourceTree = "<group>"; };
@@ -60,7 +65,6 @@
 		4CB3B6EA1AA8DEC3000AFA56 /* KaedeTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KaedeTextField.swift; sourceTree = "<group>"; };
 		4CB3B6EB1AA8DEC3000AFA56 /* MadokaTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MadokaTextField.swift; sourceTree = "<group>"; };
 		4CB3B6EC1AA8DEC3000AFA56 /* MinoruTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MinoruTextField.swift; sourceTree = "<group>"; };
-		4CB3B6ED1AA8DEC3000AFA56 /* TextFieldsEffects.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TextFieldsEffects.swift; sourceTree = "<group>"; };
 		4CB3B6EE1AA8DEC3000AFA56 /* YokoTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YokoTextField.swift; sourceTree = "<group>"; };
 		4CBF766D1A71AF7700073B6A /* TextFieldsDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TextFieldsDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4CBF76701A71AF7700073B6A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -68,6 +72,7 @@
 		4CBF76761A71AF7700073B6A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		4CBF76781A71AF7700073B6A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		4CBF767B1A71AF7700073B6A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		DF983ABA1BBD1F4100BCC4C7 /* YoshikoTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YoshikoTextField.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,8 +104,9 @@
 				4CB3B6EA1AA8DEC3000AFA56 /* KaedeTextField.swift */,
 				4CB3B6EB1AA8DEC3000AFA56 /* MadokaTextField.swift */,
 				4CB3B6EC1AA8DEC3000AFA56 /* MinoruTextField.swift */,
-				4CB3B6ED1AA8DEC3000AFA56 /* TextFieldsEffects.swift */,
+				4C86F6A21E8C0085001FB2B3 /* TextFieldEffects.swift */,
 				4CB3B6EE1AA8DEC3000AFA56 /* YokoTextField.swift */,
+				DF983ABA1BBD1F4100BCC4C7 /* YoshikoTextField.swift */,
 				4CB3B6D21AA8DEA7000AFA56 /* TextFieldEffects.h */,
 				4CB3B6D01AA8DEA7000AFA56 /* Supporting Files */,
 			);
@@ -137,6 +143,7 @@
 			isa = PBXGroup;
 			children = (
 				4CBF76711A71AF7700073B6A /* AppDelegate.swift */,
+				4C8036EA1B90A88E00218FAE /* ExampleTableViewController.swift */,
 				4CBF76751A71AF7700073B6A /* Main.storyboard */,
 				4CBF76781A71AF7700073B6A /* Images.xcassets */,
 				4CBF767A1A71AF7700073B6A /* LaunchScreen.xib */,
@@ -211,14 +218,17 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0700;
-				LastUpgradeCheck = 0700;
+				LastUpgradeCheck = 0900;
 				ORGANIZATIONNAME = "Raul Riera";
 				TargetAttributes = {
 					4CB3B6CD1AA8DEA7000AFA56 = {
 						CreatedOnToolsVersion = 6.2;
+						LastSwiftMigration = 0900;
 					};
 					4CBF766C1A71AF7700073B6A = {
 						CreatedOnToolsVersion = 6.1.1;
+						DevelopmentTeam = R64MTWS872;
+						LastSwiftMigration = 0900;
 					};
 				};
 			};
@@ -266,11 +276,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4C86F6A41E8C0109001FB2B3 /* TextFieldEffects.swift in Sources */,
+				DF983ABB1BBD1F4100BCC4C7 /* YoshikoTextField.swift in Sources */,
 				4CB3B6F31AA8DEC3000AFA56 /* MadokaTextField.swift in Sources */,
 				4CB3B6F61AA8DEC3000AFA56 /* YokoTextField.swift in Sources */,
 				4CB3B6EF1AA8DEC3000AFA56 /* HoshiTextField.swift in Sources */,
 				4CB3B6F01AA8DEC3000AFA56 /* IsaoTextField.swift in Sources */,
-				4CB3B6F51AA8DEC3000AFA56 /* TextFieldsEffects.swift in Sources */,
 				4CB3B6F21AA8DEC3000AFA56 /* KaedeTextField.swift in Sources */,
 				11E69DA71B27B1A90025D54E /* AkiraTextField.swift in Sources */,
 				4CB3B6F11AA8DEC3000AFA56 /* JiroTextField.swift in Sources */,
@@ -282,7 +293,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4C8036EB1B90A88E00218FAE /* ExampleTableViewController.swift in Sources */,
 				4CBF76721A71AF7700073B6A /* AppDelegate.swift in Sources */,
+				4C86F6A31E8C0085001FB2B3 /* TextFieldEffects.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -320,6 +333,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
@@ -335,6 +349,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
 			};
 			name = Debug;
 		};
@@ -342,6 +357,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				COPY_PHASE_STRIP = NO;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
@@ -353,6 +369,8 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.raulriera.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.0;
 			};
 			name = Release;
 		};
@@ -364,13 +382,21 @@
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
@@ -380,6 +406,7 @@
 				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
@@ -397,6 +424,7 @@
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -411,13 +439,21 @@
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
@@ -426,6 +462,7 @@
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
 				GCC_WARN_UNDECLARED_SELECTOR = YES;
@@ -435,6 +472,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
+				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -445,8 +483,9 @@
 		4CBF768A1A71AF7800073B6A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				DEVELOPMENT_TEAM = R64MTWS872;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"$(inherited)",
@@ -455,18 +494,22 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.raulriera.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
 			};
 			name = Debug;
 		};
 		4CBF768B1A71AF7800073B6A /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				DEVELOPMENT_TEAM = R64MTWS872;
 				INFOPLIST_FILE = TextFieldsDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.raulriera.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.0;
 			};
 			name = Release;
 		};

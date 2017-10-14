@@ -12,6 +12,7 @@ Currently it features the following effects from the article:
 - [x] Yoko
 - [x] Madoka
 - [x] Akira
+- [x] Yoshiko
 
 ## How they look
 
@@ -39,15 +40,20 @@ Currently it features the following effects from the article:
 ### Akira
 <img src="/Screenshots/Akira.gif" />
 
+### Yoshiko
+<img src="/Screenshots/Yoshiko.gif" />
+
 ## Installation
 
-Looking for Swift 1.2 support? Check out the `swift-1.2` branch.
+- Looking for Swift 2.3 support? Check out the [1.2.0](https://github.com/raulriera/TextFieldEffects/releases/tag/1.2.0) tag.
+- Looking for Swift 2.1 support? Check out the [1.1.1](https://github.com/raulriera/TextFieldEffects/releases/tag/1.1.1) tag.
+- Looking for Swift 1.2 support? Check out the `swift-1.2` branch.
 
 ### Manual
 
-The easiest way to install this framework is to drag and drop the `TextFieldEffects/TextFieldEffects` folder into your project. This also prevents the `frameworks` problem in iOS where the IBInspectable and IBDesignable are stripped out.
+The easiest way to install this framework is to drag and drop the `TextFieldEffects/TextFieldEffects` folder into your project. This also prevents the `frameworks` [problem in iOS](http://www.openradar.me/21258097) where the IBInspectable and IBDesignable are stripped out.
 
-### Cocoapods
+### CocoaPods
 
 Add the following to your Podfile:
 
@@ -66,7 +72,25 @@ github "raulriera/TextFieldEffects"
 
 ## How to use them
 
-Check out the demo project to see the configuration options for each effect.
+Every effect is properly documented in the source code, this is the best way to both understand and see what they do. There is also an example project included with all the effects and their settings.
+
+### Interface Builder
+
+The library is a simple drop-in, as soon as you set your subclass to one of the effects and your module to `TextFieldEffects` you will be able to see all the IBDesignable settings in the storyboard.
+
+### Code
+
+If you like to get your hands dirty, you can use them just like you would normally use any `UITextField`
+
+``` swift
+let textField = KaedeTextField(frame: textFieldFrame)
+textField.placeholderColor = .darkGrayColor()
+textField.foregroundColor = .lightGrayColor()
+
+view.addSubView(textField)
+```
+
+Is that simple.
 
 ## Created by
 Raul Riera, [@raulriera](http://twitter.com/raulriera)
